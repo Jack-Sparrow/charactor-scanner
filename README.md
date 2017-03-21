@@ -61,7 +61,7 @@ Scan(options, callback)
 - `dir`: `String / Array`, **Needed**, the dir(s) where to scan charactors, *you have to pass absolute path(s)*, use `path.resolve` to transform paths to absolute
 - `ext`: `String / Array`, only scan files with specific ext(s), example: `'json'` or `['txt', 'json', 'html']`
 - `ignoreExt`: `String / Array`, files with specific ext(s) should be ignore
-- `regExp`: `RegExp`, only scan files whose **path string** match the regexp, example: `/lang-/`, `/\.foo\.txt&/`, `\/dir-foo\/`
+- `regExp`: `RegExp`, only scan files whose **path string** match the regexp, example: `/lang-/`, `/\.foo\.txt$/`, `\/dir-foo\/`
 - `ignoreRegExp`: `RegExp`, ignore files whose **path string** match the regexp
 - Weight: `ignoreRegExp` > `regExp` > `ignoreExt` > `ext`
 
