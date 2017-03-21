@@ -1,0 +1,24 @@
+{
+  "name": "charactor-scanner",
+  "version": "1.0.0",
+  "description": "scan using charactors from dirs/files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jack-Sparrow/charactor-scanner.git"
+  },
+  "keywords": [
+    "charactor",
+    "scan",
+    "unique"
+  ],
+  "author": "zhangchao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jack-Sparrow/charactor-scanner/issues"
+  },
+  "homepage": "https://github.com/Jack-Sparrow/charactor-scanner#readme"
+}
