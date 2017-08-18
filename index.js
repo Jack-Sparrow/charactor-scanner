@@ -129,7 +129,7 @@ module.exports = function (opt, callback) {
     Object.prototype.toString.call(opt.dir) !== '[object Array]' && (opt.dir = [opt.dir]);
     
     // check path, treat all os as Unix-like except Windows
-    let absolutPathRegexp = os.type() === 'Windows_NT' ? /^[a-zA-Z]:\\(((?![<>:"/\\|?*]).)+((?<![ .])\\)?)*$/ : /^\//;
+    let absolutPathRegexp = os.type() === 'Windows_NT' ? /^[a-zA-Z]:\\/ : /^\//;
     opt.dir = opt.dir.filter(d => Object.prototype.toString.call(d) === '[object String]' && d.trim() && absolutPathRegexp.test(d));
     
     if (!opt.dir.length) {
