@@ -1,6 +1,6 @@
 {
   "name": "charactor-scanner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "scan using charactors from dirs/files",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/Jack-Sparrow/charactor-scanner/issues"
   },
   "homepage": "https://github.com/Jack-Sparrow/charactor-scanner#readme",
-  "publishConfig":{
+  "publishConfig": {
     "registry": "http://nexus.smartisan.com/repository/npm-hosted/"
   }
 }
