@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/Jack-Sparrow/charactor-scanner/issues"
   },
-  "homepage": "https://github.com/Jack-Sparrow/charactor-scanner#readme",
-  "publishConfig": {
-    "registry": "http://nexus.smartisan.com/repository/npm-hosted/"
-  }
+  "homepage": "https://github.com/Jack-Sparrow/charactor-scanner#readme"
 }
